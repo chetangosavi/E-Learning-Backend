@@ -34,19 +34,19 @@ This is the backend service for an E-Learning Platform built using **Java Spring
 > Full API documentation with Postman coming soon.
 
 ## Authentication :
-- Login : POST - `http://localhost:8080/elearning/api/auth/login`
-- Signup : POST - `http://localhost:8080/elearning/api/auth/signup`
+- Login : POST - `http://localhost:${PORT}/elearning/api/auth/login`
+- Signup : POST - `http://localhost:${PORT}/elearning/api/auth/signup`
 
 ### User:
-- Get All Approved Courses : GET - `http://localhost:8080/elearning/api/user/course/approved`
-- Get All Purchased Courses : GET - `http://localhost:8080/elearning/api/user/courses/purchased`
+- Get All Approved Courses : GET - `http://localhost:${PORT}/elearning/api/user/course/approved`
+- Get All Purchased Courses : GET - `http://localhost:${PORT}/elearning/api/user/courses/purchased`
 
 ## Admin :
-- Approve Course: POST - `http://localhost:8080/elearning/api/admin/approve/id`
+- Approve Course: POST - `http://localhost:${PORT}/elearning/api/admin/approve/id`
 
 ## Instructor :
-- Create Course : POST - `http://localhost:8080/elearning/api/instructor/create`
-- Get All Courses of Instructor : GET - `http://localhost:8080/elearning/api/instructor/create`
+- Create Course : POST - `http://localhost:${PORT}/elearning/api/instructor/create`
+- Get All Courses of Instructor : GET - `http://localhost:${PORT}/elearning/api/instructor/create`
 
 
 ---
