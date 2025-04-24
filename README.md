@@ -42,7 +42,7 @@ This is the backend service for an E-Learning Platform built using **Java Spring
 - Get All Purchased Courses : GET - `http://localhost:8080/elearning/api/user/courses/purchased`
 
 ## Admin :
-- Approve Course: POST - http://localhost:8080/elearning/api/admin/approve/id
+- Approve Course: POST - `http://localhost:8080/elearning/api/admin/approve/id`
 
 ## Instructor :
 - Create Course : POST - `http://localhost:8080/elearning/api/instructor/create`
